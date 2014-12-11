@@ -1,0 +1,29 @@
+{
+  "name": "tivie/phpserver",
+  "description": "A router for PHP built-in webserver that supports .htaccess directives",
+  "keywords": ["server", "php", "router", "htaccess"],
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Estevão Soares dos Santos",
+      "email": "estevao@soares-dos-santos.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "tivie/htaccess-parser": "0.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.3.*",
+    "phpdocumentor/phpdocumentor": "2.8.1"
+  },
+  "suggest": {
+    "seldaek/monolog": "1.11.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tivie\\PHPServer\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# Enable Rewriting
+RewriteEngine on
+
+# Rewrite user URLs
+#   Input:  user/NAME/
+#   Output: user.php?id=NAME
+RewriteRule ^user/(\w+)/?$ user.php?id=$1
